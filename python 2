@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+import random
+import string
+import os
+import webbrowser
+
+def main():
+ """Start guessing a genre from the Queen of Pop"""
+ print("Guess the genre!")
+ 
+ webbrowser.open("https://www.youtube.com/watch?v=ycE7bUq3-2k")
+ x = "midtempo dream pop"
+ guess = None
+
+ while x != guess:
+
+    guess = str(input("Pick a genre from the collaboration of MISS TAYLOR SWIFT and MISS LANA DEL REY: "))
+
+    if x == guess:
+       print("YAY!YOUR MOM WOULD BE SO PROUD OF YOU!")
+    else:
+       print("BOO!YOU SUCK!HOW COULD YOU NOT KNOW THAT!")
+   
+main()
